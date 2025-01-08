@@ -8,7 +8,7 @@ function Header() {
     <header className="flex flex-row w-full h-[100px] bg-black px-8">
       <nav className="flex justify-between items-center w-full xl:w-[1440px]">
         <a href="#">
-          <CustomLogo width="60"></CustomLogo>
+          <CustomLogo width="60" color="white"></CustomLogo>
         </a>
         <button className="text-white" onClick={() => hideNav(false)}>
           Mobile Nav

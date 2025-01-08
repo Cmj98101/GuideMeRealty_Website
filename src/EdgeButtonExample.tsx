@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const EdgeButtonExample = () => {
   const [position, setPosition] = useState<"inside" | "outside" | "edge">(
